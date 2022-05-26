@@ -5,7 +5,10 @@ import os
 import glob
 
 
-path = ''
+import pathlib
+
+
+path = pathlib.Path(r"D:\3D\textures")
 
 
 def compress_image(directory=False, quality=75):
